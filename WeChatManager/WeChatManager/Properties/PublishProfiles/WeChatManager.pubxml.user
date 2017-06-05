@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\Web发布\WechatManager</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="a.txt">
+      <publishTime>11/04/2016 15:09:36</publishTime>
+    </File>
+    <File Include="API/WeChatToken.aspx">
+      <publishTime>06/30/2016 15:40:34</publishTime>
+    </File>
+    <File Include="API/WeiXinToken.aspx">
+      <publishTime>06/29/2016 15:20:19</publishTime>
+    </File>
+    <File Include="bin/LitJson.dll">
+      <publishTime>10/20/2016 16:10:18</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/02/2013 12:10:10</publishTime>
+    </File>
+    <File Include="bin/WeChatManager.dll">
+      <publishTime>04/27/2017 15:38:18</publishTime>
+    </File>
+    <File Include="bin/WeChatSDK.dll">
+      <publishTime>03/01/2017 17:23:52</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>04/27/2017 15:37:08</publishTime>
+    </File>
+    <File Include="JS-SDK/GetJS_SDK_Config.ashx">
+      <publishTime>12/21/2016 16:31:24</publishTime>
+    </File>
+    <File Include="JS-SDK/js_sdktpl.html">
+      <publishTime>04/17/2017 17:25:31</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>12/21/2016 17:10:13</publishTime>
+    </File>
+    <File Include="Material/Test.aspx">
+      <publishTime>11/04/2016 09:43:08</publishTime>
+    </File>
+    <File Include="Menu/menu.txt">
+      <publishTime>03/14/2017 14:30:02</publishTime>
+    </File>
+    <File Include="Menu/WeChatMenu.aspx">
+      <publishTime>06/30/2016 15:03:15</publishTime>
+    </File>
+    <File Include="oauth/WeChatAccredit.aspx">
+      <publishTime>09/08/2016 10:28:04</publishTime>
+    </File>
+    <File Include="TemplateAlert/sendmsg.txt">
+      <publishTime>06/29/2016 14:52:02</publishTime>
+    </File>
+    <File Include="TemplateAlert/TemplateMsg.aspx">
+      <publishTime>06/29/2016 15:27:56</publishTime>
+    </File>
+    <File Include="Test.aspx">
+      <publishTime>11/04/2016 09:43:08</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/17/2017 17:22:47</publishTime>
+    </File>
+    <File Include="WeChatMenu/menu.txt">
+      <publishTime>06/30/2016 14:49:00</publishTime>
+    </File>
+    <File Include="WeChatMenu/WeiXinMenu.aspx">
+      <publishTime>06/29/2016 15:21:57</publishTime>
+    </File>
+    <File Include="WeChatoauth/WeChatAccredit.aspx">
+      <publishTime>06/29/2016 19:43:52</publishTime>
+    </File>
+    <File Include="WeChatTemplate/sendmsg.txt">
+      <publishTime>06/29/2016 14:52:02</publishTime>
+    </File>
+    <File Include="WeChatTemplate/TemplateMsg.aspx">
+      <publishTime>06/29/2016 15:27:56</publishTime>
+    </File>
+    <File Include="wechat_location/index.html">
+      <publishTime>11/10/2016 11:35:45</publishTime>
+    </File>
+    <File Include="wechat_location/js/jquery-2.1.4.min.js">
+      <publishTime>11/10/2016 11:27:28</publishTime>
+    </File>
+    <File Include="wechat_location/js/jweixin-1.1.0">
+      <publishTime>11/10/2016 11:15:31</publishTime>
+    </File>
+    <File Include="wechat_location/js/jweixin-1.1.0.js">
+      <publishTime>11/10/2016 11:15:31</publishTime>
+    </File>
+    <File Include="WxPayAPI/JsApiPayPage.aspx">
+      <publishTime>12/22/2016 09:20:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

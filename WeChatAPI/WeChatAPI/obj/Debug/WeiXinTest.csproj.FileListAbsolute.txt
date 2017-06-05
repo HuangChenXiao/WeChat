@@ -1,0 +1,5 @@
+D:\Code\My_WeiXin_Web\WeiXinTest\WeiXinTest\bin\WeiXinTest.dll.config
+D:\Code\My_WeiXin_Web\WeiXinTest\WeiXinTest\bin\WeiXinTest.dll
+D:\Code\My_WeiXin_Web\WeiXinTest\WeiXinTest\bin\WeiXinTest.pdb
+D:\Code\My_WeiXin_Web\WeiXinTest\WeiXinTest\obj\Debug\WeiXinTest.dll
+D:\Code\My_WeiXin_Web\WeiXinTest\WeiXinTest\obj\Debug\WeiXinTest.pdb

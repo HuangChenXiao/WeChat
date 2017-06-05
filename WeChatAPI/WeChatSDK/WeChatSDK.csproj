@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73A6C720-FCF2-4240-8C76-FF403E279FD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WeChatSDK</RootNamespace>
+    <AssemblyName>WeChatSDK</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LitJson, Version=0.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\360Duobao\trunk\WeChat\WeChat_Projects\Utils\bin\Debug\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helper\WeChatConfig.cs" />
+    <Compile Include="Helper\WeChatUtility.cs" />
+    <Compile Include="Helper\JsonHelper.cs" />
+    <Compile Include="Helper\JsonModel.cs" />
+    <Compile Include="Helper\OAuthUser.cs" />
+    <Compile Include="Helper\OAuth_Token.cs" />
+    <Compile Include="Helper\ObjectTypeHelper.cs" />
+    <Compile Include="Helper\WeChatContext.cs" />
+    <Compile Include="Material\MaterialManager.cs" />
+    <Compile Include="Menu\MenuManager.cs" />
+    <Compile Include="oAuth\WeChatoAuth.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\account.cs" />
+    <Compile Include="Service\WeChatService.cs" />
+    <Compile Include="TemplateAlert\Model\errInfo.cs" />
+    <Compile Include="TemplateAlert\Model\PurchaseNoticeModel.cs" />
+    <Compile Include="TemplateAlert\MsgType\TemplatePurchaseNotice.cs" />
+    <Compile Include="ToKen\GetXmlModel\GetXmlElementEven.cs" />
+    <Compile Include="ToKen\GetXmlModel\GetXmlElementText.cs" />
+    <Compile Include="ToKen\GetXmlModel\GetXmlMsgType.cs" />
+    <Compile Include="ToKen\OauthSignature\WeChatSignature.cs" />
+    <Compile Include="ToKen\WeChatToKenApi.cs" />
+    <Compile Include="ToKen\XmlModel\XmlElementEven.cs" />
+    <Compile Include="ToKen\XmlModel\XmlElementImage.cs" />
+    <Compile Include="ToKen\XmlModel\XmlElementLink.cs" />
+    <Compile Include="ToKen\XmlModel\XmlElementLocation.cs" />
+    <Compile Include="ToKen\XmlModel\XmlElementShortVideo.cs" />
+    <Compile Include="ToKen\XmlModel\XmlElementText.cs" />
+    <Compile Include="ToKen\XmlModel\XmlElementVideo.cs" />
+    <Compile Include="ToKen\XmlModel\XmlElementVoice.cs" />
+    <Compile Include="ToKen\XmlModel\XmlMsgType.cs" />
+    <Compile Include="WeChatLog\LogTextHelper.cs" />
+    <Compile Include="WxPayAPI\business\DownloadBill.cs" />
+    <Compile Include="WxPayAPI\business\JsApiPay.cs" />
+    <Compile Include="WxPayAPI\business\MicroPay.cs" />
+    <Compile Include="WxPayAPI\business\NativeNotify.cs" />
+    <Compile Include="WxPayAPI\business\NativePay.cs" />
+    <Compile Include="WxPayAPI\business\OrderQuery.cs" />
+    <Compile Include="WxPayAPI\business\Refund.cs" />
+    <Compile Include="WxPayAPI\business\RefundQuery.cs" />
+    <Compile Include="WxPayAPI\business\ResultNotify.cs" />
+    <Compile Include="WxPayAPI\lib\Config.cs" />
+    <Compile Include="WxPayAPI\lib\Data.cs" />
+    <Compile Include="WxPayAPI\lib\Exception.cs" />
+    <Compile Include="WxPayAPI\lib\HttpService.cs" />
+    <Compile Include="WxPayAPI\lib\Log.cs" />
+    <Compile Include="WxPayAPI\lib\Notify.cs" />
+    <Compile Include="WxPayAPI\lib\WxPayApi.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

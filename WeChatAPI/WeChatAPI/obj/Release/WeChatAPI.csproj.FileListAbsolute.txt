@@ -1,0 +1,10 @@
+D:\Code\WeChatAPI\WeChatAPI\bin\WeChatAPI.dll.config
+D:\Code\WeChatAPI\WeChatAPI\bin\WeChatAPI.dll
+D:\Code\WeChatAPI\WeChatAPI\bin\WeChatAPI.pdb
+D:\Code\WeChatAPI\WeChatAPI\bin\Newtonsoft.Json.dll
+D:\Code\WeChatAPI\WeChatAPI\bin\WeChatSDK.dll
+D:\Code\WeChatAPI\WeChatAPI\bin\LitJson.dll
+D:\Code\WeChatAPI\WeChatAPI\bin\WeChatSDK.pdb
+D:\Code\WeChatAPI\WeChatAPI\obj\Release\WeChatAPI.csprojResolveAssemblyReference.cache
+D:\Code\WeChatAPI\WeChatAPI\obj\Release\WeChatAPI.dll
+D:\Code\WeChatAPI\WeChatAPI\obj\Release\WeChatAPI.pdb

@@ -1,0 +1,6 @@
+D:\Code\WeChatManager\WeChatSDK\bin\Release\WeChatSDK.dll
+D:\Code\WeChatManager\WeChatSDK\bin\Release\WeChatSDK.pdb
+D:\Code\WeChatManager\WeChatSDK\obj\Release\WeChatSDK.dll
+D:\Code\WeChatManager\WeChatSDK\obj\Release\WeChatSDK.pdb
+D:\Code\WeChatManager\WeChatSDK\bin\Release\LitJson.dll
+D:\Code\WeChatManager\WeChatSDK\obj\Release\WeChatSDK.csprojResolveAssemblyReference.cache

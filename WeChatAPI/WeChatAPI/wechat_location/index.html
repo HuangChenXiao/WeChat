@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+</head>
+
+<body>
+    <button id="location">定位</button>
+    <script src="js/jweixin-1.1.0.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+
+
+    <script>
+
+
+        $(function () {
+            $("#location").click(function () {
+                $.ajax({
+                    type: "post",
+                    url: "http://driver.4000000144.com/driver/WeixinInfo.ashx",
+                    //data:{"data":jsonData},
+                    success: function (data) {
+                        var appId = data.appId;
+                        var timestamp = data.timestamp;
+                        var nonceStr = data.nonceStr;
+                        var signature = data.signature;
+
+                        //start
+                        wx.config({
+                            debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+                            appId: appId, // 必填，公众号的唯一标识
+                            timestamp: timestamp, // 必填，生成签名的时间戳
+                            nonceStr: nonceStr, // 必填，生成签名的随机串
+                            signature: signature,// 必填，签名，见附录1
+                            jsApiList: ['getLocation'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+                        });
+
+                        wx.ready(function () {
+                            wx.getLocation({
+                                type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
+                                success: function (res) {
+                                    var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+                                    var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+                                    var speed = res.speed; // 速度，以米/每秒计
+                                    var accuracy = res.accuracy; // 位置精度
+
+                                    $.ajax({
+                                        type: "post",
+                                        url: "http://driver.4000000144.com/driver/GetLocation.ashx?locationx=" + latitude + "&locationy=" + longitude + "",
+                                        //data:{"data":jsonData},
+                                        success: function (res) {
+                                            alert('请求成功')
+                                        }
+                                    })
+                                }
+                            });
+
+                        })
+                        //end
+                    },
+                    error: function () {
+                        console.log('请求失败!请重试');
+                    }
+                })
+
+
+            })
+        })
+    </script>
+
+</body>
+</html>

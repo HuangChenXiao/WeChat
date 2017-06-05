@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1,minimum-scale=1">
+    <title>微信JS-SDK说明文档</title>
+</head>
+<body>
+    <button onclick="CloseWindow()">关闭当前页</button>
+    <img src="" class="my_img" />
+    <script src="../js/jquery.min.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js' type="text/javascript"></script>
+    <script>
+        $(function () {
+            $.post("GetJS_SDK_Config.ashx?action=SDK_Config", { "windowurl": window.location.href }, function (data) {
+                data = JSON.parse(data);
+                wx.config({
+                    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+                    appId: data.appId, // 必填，公众号的唯一标识
+                    timestamp: data.timeStamp, // 必填，生成签名的时间戳
+                    nonceStr: data.nonceStr, // 必填，生成签名的随机串
+                    signature: data.signature,// 必填，签名，见附录1
+                    jsApiList: ['chooseWXPay'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+                });
+
+                //调取照相机
+                //wx.ready(function () {
+                //    wx.chooseImage({
+                //        count: 1, // 默认9
+                //        sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
+                //        sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
+                //        success: function (res) {
+                //            if (res.localIds) {
+                //                console.log(res.localIds);
+                //                $(".my_img").attr("src", res.localIds); // 返回选定照片的本地ID列表，localId可以作为img标签的src属性显示图片
+                //            }
+                //        }
+                //    });
+                //})
+                //微信支付
+                $.post("GetJS_SDK_Config.ashx?action=SDK_Pay", function (data) {
+                    data = JSON.parse(data);
+                    if (data.status == 1) {
+                        //调取支付
+                        wx.chooseWXPay({
+                            timestamp: data.timeStamp, // 支付签名时间戳，注意微信jssdk中的所有使用timestamp字段均为小写。但最新版的支付后台生成签名使用的timeStamp字段名需大写其中的S字符
+                            nonceStr: data.nonceStr, // 支付签名随机串，不长于 32 位
+                            package: data.package, // 统一支付接口返回的prepay_id参数值，提交格式如：prepay_id=***）
+                            signType: 'MD5', // 签名方式，默认为'SHA1'，使用新版支付需传入'MD5'
+                            paySign: data.paySign, // 支付签名
+                            success: function (res) {
+                                // 支付成功后的回调函数
+                            }
+                        });
+                    }
+                });
+                //使用微信内置地图查看位置接口
+                //wx.openLocation({
+                //    latitude: 24.52764, // 纬度，浮点数，范围为90 ~ -90
+                //    longitude: 118.1569, // 经度，浮点数，范围为180 ~ -180。
+                //    name: '测试', // 位置名
+                //    address: '测试详情', // 地址详情说明
+                //    scale: 20, // 地图缩放级别,整形值,范围从1~28。默认为最大
+                //    infoUrl: 'http://www.baidu.com' // 在查看位置界面底部显示的超链接,可点击跳转
+                //});
+                //获取地理位置接口
+                //wx.getLocation({
+                //    type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
+                //    success: function (res) {
+                //        var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+                //        var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+                //        var speed = res.speed; // 速度，以米/每秒计
+                //        var accuracy = res.accuracy; // 位置精度
+
+                //        document.write("latitude:" + latitude + "longitude:" + longitude + "speed:" + speed + "accuracy:" + accuracy);
+                //    }
+                //});
+            })
+        })
+        //关闭当前网页
+        function CloseWindow() {
+            wx.closeWindow();
+        }
+    </script>
+</body>
+</html>
