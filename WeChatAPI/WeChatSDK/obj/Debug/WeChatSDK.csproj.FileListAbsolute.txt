@@ -13,3 +13,8 @@ D:\Code\WeChatAPI\WeChatSDK\bin\Debug\WeChatSDK.pdb
 D:\Code\WeChatAPI\WeChatSDK\bin\Debug\LitJson.dll
 D:\Code\WeChatAPI\WeChatSDK\obj\Debug\WeChatSDK.dll
 D:\Code\WeChatAPI\WeChatSDK\obj\Debug\WeChatSDK.pdb
+D:\Code\WeChat\WeChatAPI\WeChatSDK\bin\Debug\WeChatSDK.dll
+D:\Code\WeChat\WeChatAPI\WeChatSDK\bin\Debug\WeChatSDK.pdb
+D:\Code\WeChat\WeChatAPI\WeChatSDK\obj\Debug\WeChatSDK.dll
+D:\Code\WeChat\WeChatAPI\WeChatSDK\obj\Debug\WeChatSDK.pdb
+D:\Code\WeChat\WeChatAPI\WeChatSDK\obj\Debug\WeChatSDK.csprojResolveAssemblyReference.cache

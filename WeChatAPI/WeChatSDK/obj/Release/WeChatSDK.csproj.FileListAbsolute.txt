@@ -10,3 +10,8 @@ D:\Code\WeChatAPI\WeChatSDK\bin\Release\LitJson.dll
 D:\Code\WeChatAPI\WeChatSDK\obj\Release\WeChatSDK.csprojResolveAssemblyReference.cache
 D:\Code\WeChatAPI\WeChatSDK\obj\Release\WeChatSDK.dll
 D:\Code\WeChatAPI\WeChatSDK\obj\Release\WeChatSDK.pdb
+D:\Code\WeChat\WeChatAPI\WeChatSDK\bin\Release\WeChatSDK.dll
+D:\Code\WeChat\WeChatAPI\WeChatSDK\bin\Release\WeChatSDK.pdb
+D:\Code\WeChat\WeChatAPI\WeChatSDK\obj\Release\WeChatSDK.csprojResolveAssemblyReference.cache
+D:\Code\WeChat\WeChatAPI\WeChatSDK\obj\Release\WeChatSDK.dll
+D:\Code\WeChat\WeChatAPI\WeChatSDK\obj\Release\WeChatSDK.pdb

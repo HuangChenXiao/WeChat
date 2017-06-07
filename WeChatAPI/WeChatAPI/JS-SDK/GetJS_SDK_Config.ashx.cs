@@ -6,6 +6,8 @@ using System.Web.Security;
 using WxPayAPI;
 using Newtonsoft.Json;
 using WeChatSDK.Helper;
+using WeChatSDK.WeChatLog;
+using System.Text;
 
 namespace WeChatAPI.JS_SDK
 {
@@ -81,6 +83,8 @@ namespace WeChatAPI.JS_SDK
             try
             {
                 var windowurl = context.Request["windowurl"];
+                var action = context.Request["action"];
+                LogTextHelper.Log("action:" + action + " windowurl:" + windowurl + "post:" + context.Request["windowurl"]);
                 WxPayData jsApiParam = new WxPayData();
                 model.appId = WeChatConfig.AppId;
                 model.timeStamp = WxPayApi.GenerateTimeStamp();
@@ -110,6 +114,7 @@ namespace WeChatAPI.JS_SDK
             {
                 model.status = 0;
                 model.msg =ex.Message;
+                LogTextHelper.Log(ex.ToString());
             }
             context.Response.Write(JsonConvert.SerializeObject(model));
         }

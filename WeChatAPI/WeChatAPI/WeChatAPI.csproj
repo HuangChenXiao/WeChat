@@ -64,6 +64,7 @@
   <ItemGroup>
     <Content Include="JS-SDK\js_sdktpl.html" />
     <Content Include="js\jquery.min.js" />
+    <Content Include="js\vue-resource.js" />
     <Content Include="WxPayAPI\JsApiPayPage.aspx" />
     <Content Include="JS-SDK\GetJS_SDK_Config.ashx" />
     <Content Include="API\WeChatToken.ashx" />
@@ -82,7 +83,9 @@
   <ItemGroup>
     <Content Include="Material\Test.aspx" />
     <None Include="Menu\menu.json" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="wechat_location\index.html" />
     <Content Include="wechat_location\js\jquery-2.1.4.min.js" />
     <Content Include="wechat_location\js\jweixin-1.1.0.js" />

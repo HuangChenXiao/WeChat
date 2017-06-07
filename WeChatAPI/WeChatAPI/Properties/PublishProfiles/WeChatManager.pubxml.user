@@ -28,7 +28,7 @@
       <publishTime>10/02/2013 12:10:10</publishTime>
     </File>
     <File Include="bin/WeChatAPI.dll">
-      <publishTime>06/05/2017 14:53:29</publishTime>
+      <publishTime>06/07/2017 09:06:11</publishTime>
     </File>
     <File Include="bin/WeChatManager.dll">
       <publishTime>04/27/2017 15:38:18</publishTime>
@@ -43,7 +43,7 @@
       <publishTime>06/05/2017 14:07:47</publishTime>
     </File>
     <File Include="JS-SDK/js_sdktpl.html">
-      <publishTime>04/17/2017 17:25:31</publishTime>
+      <publishTime>06/05/2017 17:04:08</publishTime>
     </File>
     <File Include="js/jquery.min.js">
       <publishTime>12/21/2016 17:10:13</publishTime>
@@ -79,7 +79,7 @@
       <publishTime>11/04/2016 09:43:08</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/05/2017 14:26:53</publishTime>
+      <publishTime>06/06/2017 11:28:48</publishTime>
     </File>
     <File Include="WeChatMenu/menu.txt">
       <publishTime>06/30/2016 14:49:00</publishTime>
