@@ -1,0 +1,220 @@
+action:SDK_Config windowurl:post:
+2017/6/7 9:52:29
+
+model.nonceStr:040ae0eb2d6d48cab5c1c2be5ca9d548model.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhyoT7ObZe6PTulJUDuSs4v1L2YD93ssgXz9RFq9HJkIFAmodel.timeStamp:1496800349windowurl:
+2017/6/7 9:52:29
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 9:52:29
+
+action:SDK_Config windowurl:post:
+2017/6/7 9:52:49
+
+model.nonceStr:406f7804efae4b2e9cb6bf54abe19155model.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhyoT7ObZe6PTulJUDuSs4v1L2YD93ssgXz9RFq9HJkIFAmodel.timeStamp:1496800369windowurl:
+2017/6/7 9:54:39
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 9:54:39
+
+action:SDK_Config windowurl:post:
+2017/6/7 9:54:44
+
+action:SDK_Config windowurl:post:
+2017/6/7 9:59:38
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:08:27
+
+model.nonceStr:8ce28f6605634d5aaac0b90bd9dd9b01model.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496801309windowurl:
+2017/6/7 10:08:31
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:08:31
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:08:34
+
+model.nonceStr:04c56fc4b725437fa427e3609e91097bmodel.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496801317windowurl:
+2017/6/7 10:08:40
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:08:40
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:09:09
+
+model.nonceStr:300a4d0dee4445b387d3097ab6f59dffmodel.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496801351windowurl:
+2017/6/7 10:09:11
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:09:11
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:09:23
+
+model.nonceStr:2a9f3b02405143cd985d8e3110b7ff5fmodel.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496801365windowurl:
+2017/6/7 10:09:25
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:09:25
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:09:36
+
+model.nonceStr:17068a7e32304770b8970a366a3a0d35model.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496801378windowurl:
+2017/6/7 10:09:38
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:09:38
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:09:58
+
+model.nonceStr:faeacaeee5034b8b9933ce510f774d1fmodel.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496801400windowurl:
+2017/6/7 10:10:00
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:10:00
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:12:13
+
+model.nonceStr:7abfd860041544d09fdd928fcd5b9db3model.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496801592windowurl:
+2017/6/7 10:13:12
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:13:12
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:13:15
+
+model.nonceStr:3d622a158dfc40d19c912d90d7995ad4model.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496801597windowurl:
+2017/6/7 10:13:17
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:13:17
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:17:02
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:21:43
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:24:48
+
+model.nonceStr:b1c47412b7ea48c2ae210611f3033204model.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496802289windowurl:
+2017/6/7 10:28:46
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:28:46
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:29:16
+
+model.nonceStr:5b67d8a050b64f3eac1d325e4427dbd2model.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496802556windowurl:
+2017/6/7 10:29:48
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:29:48
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:39:25
+
+model.nonceStr:ca2d6f9746eb405e92d90ad9f3f5d496model.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496803166windowurl:
+2017/6/7 10:39:29
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:39:29
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:39:53
+
+model.nonceStr:bcf49a00b9c6431bafa8df8da9b28779model.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496803194windowurl:
+2017/6/7 10:41:09
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:41:09
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:41:12
+
+model.nonceStr:64114c2431694056a1fd990e44b4e5d0model.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496803272windowurl:
+2017/6/7 10:41:13
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:41:13
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:41:52
+
+model.nonceStr:c4f41e12940f4a89ba36a01aa1c17a8fmodel.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496803312windowurl:
+2017/6/7 10:42:44
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:42:44
+
+action:SDK_Config windowurl:http://localhost:5488/JS-SDK/js_sdktpl.htmlpost:http://localhost:5488/JS-SDK/js_sdktpl.html
+2017/6/7 10:44:09
+
+System.IO.IOException: 文件“D:\Code\WeChat\WeChatAPI\WeChatAPI\WeChatLog\Log——2017-06-07.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 WeChatSDK.WeChatLog.LogTextHelper.Log(String msg) 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WeChatLog\LogTextHelper.cs:行号 22
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 86
+2017/6/7 10:44:10
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:48:40
+
+model.nonceStr:6f931cbc5d1047c6af1ad987b2572e2emodel.ticket:kgt8ON7yVITDhtdwci0qeeJ0NaHLggJnh5GINy8hQhwrRS59YY7CXiQN_38ChPLHwFtJZV056HjW1xXl0yRWpwmodel.timeStamp:1496803720windowurl:
+2017/6/7 10:48:54
+
+WxPayAPI.WxPayException: WxPayData内部含有值为null的字段!
+   在 WxPayAPI.WxPayData.ToUrl() 位置 d:\Code\WeChat\WeChatAPI\WeChatSDK\WxPayAPI\lib\Data.cs:行号 159
+   在 WeChatAPI.JS_SDK.GetJS_SDK_Config.SDK_Config(HttpContext context) 位置 d:\Code\WeChat\WeChatAPI\WeChatAPI\JS-SDK\GetJS_SDK_Config.ashx.cs:行号 109
+2017/6/7 10:48:54
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:50:09
+
+action:SDK_Config windowurl:post:
+2017/6/7 10:53:21
+
